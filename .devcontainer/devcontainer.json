@@ -1,0 +1,9 @@
+{
+    "name": "Rust Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+    "features": {
+      "ghcr.io/devcontainers/features/rust:1": {}
+    },
+    "postCreateCommand": "cargo install cargo-edit"
+  }
+  

@@ -1,0 +1,27 @@
+# Compilação
+*/target/
+
+# Dependências gerenciadas
+Cargo.lock
+
+# Logs e estados temporários
+*.log
+*.tmp
+
+# Arquivos de cache
+.cargo/
+.vscode/
+.idea/
+.DS_Store
+
+# Configurações do editor
+*.swp
+*.swo
+*~
+
+# Binários gerados para debug e release
+/debug/
+release/
+
+# Outros
+/test-outputs/
